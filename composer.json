@@ -1,0 +1,24 @@
+{
+    "name": "carmi\/mini-item",
+    "description": "this is mini project!!!!!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carmi",
+            "email": "16620600831@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Carmi\\MiniItem\\": "src"
+        }
+    },
+    "extra":{
+      "laravel":{
+        "providers":[
+          "Carmi\\MiniItem\\Providers\\MiniServiceProvider"
+        ]
+      }
+    }
+}
